@@ -1,5 +1,5 @@
 {
-  "name": "stepByStep",
+  "name": "reactnative-practice-app",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -10,6 +10,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "^2.1.2",
     "react": "19.0.0",
     "react-native": "0.78.0",
     "react-native-gesture-handler": "^2.25.0",
@@ -21,7 +22,7 @@
     "@babel/core": "^7.25.2",
     "@babel/preset-env": "^7.25.3",
     "@babel/runtime": "^7.25.0",
-    "@react-native-community/cli": "15.0.1",
+    "@react-native-community/cli": "latest",
     "@react-native-community/cli-platform-android": "15.0.1",
     "@react-native-community/cli-platform-ios": "15.0.1",
     "@react-native/babel-preset": "0.78.0",
